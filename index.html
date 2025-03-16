@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InternBuster - Internship Checker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">InternBuster</div>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="https://forms.gle/YOUR_FORM_LINK" target="_blank">Raise Concern</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+
+        <h2>An Internship Legitimacy checker</h2>
+        <div class="search-container">
+            <input type="text" placeholder="Search..." id="companyName">
+            <button onclick="checkCompany()"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </div>
+        <div id="result"></div>
+    </div>
+        <div class = "parag">
+        <p>
+            InternBuster helps users verify the credibility of internship programs.
+            If a company appears in our <b>Red List</b>, it means we’ve received multiple reports questioning its legitimacy.
+            <div class ="space"></div> 
+            <p><b>Always do your own research before applying!</b></p>
+        </p>
+    
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 InternBuster | <a href="about.html">About Me</a> | <a href="https://forms.gle/YOUR_FORM_LINK" target="_blank">Raise Concern</a></p>
+    </footer>
+
+</body>
+</html>
