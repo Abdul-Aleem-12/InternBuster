@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 h2{
     padding-top: 70px;
@@ -19,6 +20,7 @@ body {
     display: flex;
     flex-direction: column;  /* Ensure navbar appears at the top */
     align-items: center;
+    background-image: url("9019808.jpg");
 }
 
 
@@ -99,7 +101,6 @@ ul {
     background-color: red;
     position: relative;
     border-radius: 30px;
-
 }
 input {
     width: 100%;
@@ -122,7 +123,7 @@ button {
     background-color: #1e1e20;
     color: #ffffff;
     border: none;
-
+    background-image: url("9019808.jpg");
 
 }
 
@@ -138,7 +139,7 @@ button:hover {
 /* Footer */
 footer {
     margin-top: 20px;
-    padding: 15px;
+    width: 100%;
     background-color: #25252a;
 }
 
@@ -161,15 +162,6 @@ html, body {
     margin: auto;
 }
 
-/* Footer sticks at the bottom */
-/* footer {
-    background-color: #25252a;
-    text-align: center;
-    padding: 15px;
-    width: 100%;
-    margin-top: auto;
-    position: relative;
-} */
 footer {
     width: 100vw;
     background-color: #25252a;
@@ -186,3 +178,34 @@ footer {
     margin: 20px auto; /* Centers the content with spacing on left & right */
     text-align: center;
 }
+.about-main{
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+.about-sec{
+
+    margin: 30px;
+    font-size: large;
+}
+.about-main .name{
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
