@@ -62,7 +62,10 @@ body {
 .space{
     margin-top: 20px;
 }
-
+ul {
+    list-style: none;
+    padding: 0;
+}
 /* Mobile Navbar */
 @media (max-width: 768px) {
     .hamburger {
