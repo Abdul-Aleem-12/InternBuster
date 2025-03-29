@@ -9,18 +9,6 @@ h2{
     padding-bottom: 50px;
     font-size: 1cm;
 }
-/* Global Styles */
-/* body {
-    height: 100vh;
-    background-color: #1e1e20;
-    font-family: 'Arial', sans-serif;
-    color: #ffffff;
-    text-align: center;
-    line-height: 1.6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 body {
     height: 100%;
     background-color: #1e1e20;
@@ -80,7 +68,6 @@ body {
     .hamburger {
         display: block;
     }
-    
     .nav-links {
         display: none;
         flex-direction: column;
@@ -189,10 +176,10 @@ footer {
     bottom: -25%;
     left: 0;
 }
-.parag{
-    padding: 50px;
+.parag {
+    padding: 20px; /* Ensures spacing inside the div */
     font-size: x-large;
-    margin-left: 0%;
-    margin-right: 0%;
-    border: 0px;
+    max-width: 100%; /* Prevents content from touching the edges */
+    margin: 20px auto; /* Centers the content with spacing on left & right */
+    text-align: center;
 }
