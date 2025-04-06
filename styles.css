@@ -190,7 +190,7 @@ footer::after {
     font-size: large;
 }
 
-.about-main .name {
+.animate-name {
     position: relative;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -200,9 +200,18 @@ footer::after {
     background: linear-gradient(90deg, #000, #fff, #000);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 3s linear infinite;
+    animation: animate 2s linear 1;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+/* Final static style */
+.final-name {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 4px;
+    color: white;
 }
 
 @keyframes animate {

@@ -23,7 +23,8 @@
     <!-- About Section -->
         <div class="container">
             <div class = "about-main">
-            <p>Hello! I’m <div class = name>Abdul Aleem,</div></p> <p> the creator of InternBuster.</p>
+                <p>Hello! I’m <span class="name animate-name">Abdul Aleem,</span></p>
+                <p> the creator of InternBuster.</p>
             </div>
             <div class = "about-sec">
             <p>
@@ -33,8 +34,8 @@
             </p>
             <p>Feel free to connect with me:</p>
             <ul>
-                <li>Email: <a href="https://mail.google.com/mail/?view=cm&to=abdulaleem.a.official@gmail.com" target="_blank" rel="noopener noreferrer">abdulaleem.a.official@gmail.com</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/abdul-aleem-3b3b60262/" target="_blank"rel="noopener noreferrer">My LinkedIn</a></li>
+                <li>Email: <br><a href="https://mail.google.com/mail/?view=cm&to=abdulaleem.a.official@gmail.com" target="_blank" rel="noopener noreferrer">abdulaleem.a.official@gmail.com</a></li>
+                <li>LinkedIn: <br><a href="https://www.linkedin.com/in/abdul-aleem-3b3b60262/" target="_blank"rel="noopener noreferrer">My LinkedIn</a></li>
             </ul>
         </div>
         </div>
@@ -42,6 +43,15 @@
     <footer>
         <p>© 2025 InternBuster | <a href="index.html">Home</a> | <a href="https://forms.gle/TMwuXnyfGG6VTFK2A" target="_blank" >Raise Concern</a></p>
     </footer>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const nameElement = document.querySelector('.name');
+            nameElement.addEventListener('animationend', () => {
+                nameElement.classList.remove('animate-name');
+                nameElement.classList.add('final-name');
+            });
+        });
+    </script>
 
 </body>
 </html>
