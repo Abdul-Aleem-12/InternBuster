@@ -12,6 +12,8 @@ const redList = {
     "skillcrafttech": "Offers only 4 basic projects, payment is required solely for certification.",
     "skillcrafttechnology": "Offers only 4 basic projects, payment is required solely for certification.",
     "skillcraft": "Offers only 4 basic projects, payment is required solely for certification.",
+    "bharat": "Involves basic projects, certificate is issued only upon payment.",
+    "bharath": "Involves basic projects, certificate is issued only upon payment.",
     "acmegrade": "Primarily a course, not a genuine internship experience.",
     "Intrnforte": "Only provides courses and basic projects like Tic-Tac-Toe; lacks real-world work.",
     "bharatintern": "Involves basic projects, certificate is issued only upon payment.",
