@@ -6,7 +6,7 @@
 }
 
 h2 {
-    padding-top: 70px;
+    padding-top: 30px;
     padding-bottom: 50px;
     font-size: 1cm;
 }
@@ -149,7 +149,9 @@ button {
 button:hover {
     background-color: #3b75d1;
 }
-
+#result{
+    padding-top: 20px;
+}
 /* Footer Fix */
 footer {
     background-color: #25252a;
