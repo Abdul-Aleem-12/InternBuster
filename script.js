@@ -33,7 +33,9 @@ const redList = {
     "coincent": "Only basic projects, certificate requires payment.",
     "1stop": "Offers simple projects with a paid certification model.",
     "corizo": "Project work is minimal, charges money for certificate issuance.",
-    "thatshadycompany" : "No real world projects and you will be forced to pay inorder to get their certificate"
+    "thatshadycompany" : "No real world projects and you will be forced to pay inorder to get their certificate",
+    "mitsquare": "Project work is minimal, charges money for certificate issuance.",
+    "mycaptain": "Project work is minimal, charges money for certificate issuance.",
 };
 
 
