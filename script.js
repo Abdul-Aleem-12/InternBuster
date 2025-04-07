@@ -36,6 +36,7 @@ const redList = {
     "thatshadycompany" : "No real world projects and you will be forced to pay inorder to get their certificate",
     "mitsquare": "Project work is minimal, charges money for certificate issuance.",
     "mycaptain": "Project work is minimal, charges money for certificate issuance.",
+    "codsoft": "Multiple concerns have been raised regarding the legitimacy of their projects.",
 };
 
 
