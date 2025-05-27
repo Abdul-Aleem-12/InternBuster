@@ -3,7 +3,7 @@ function toggleMenu() {
     document.querySelector(".nav-links").classList.toggle("active");
 }
 function normalizeCompanyName(name) {
-    return name.trim().toLowerCase().replace(/\s+/g, '').replace(/[^a-z0-9]/g, '');
+    return name.trim().toLowerCase().replace(/[^a-z0-9]/g, '');
 }
 // Internship Checker
 const redList = {
@@ -14,6 +14,10 @@ const redList = {
     "skillcraft": "Offers only 4 basic projects, payment is required solely for certification.",
     "bharat": "Involves basic projects, certificate is issued only upon payment.",
     "bharath": "Involves basic projects, certificate is issued only upon payment.",
+    "barath": "Involves basic projects, certificate is issued only upon payment.",
+    "bharatintern": "Involves basic projects, certificate is issued only upon payment.",
+    "bharathintern": "Involves basic projects, certificate is issued only upon payment.",
+    "barathintern": "Involves basic projects, certificate is issued only upon payment.",
     "acmegrade": "Primarily a course, not a genuine internship experience.",
     "Intrnforte": "Only provides courses and basic projects like Tic-Tac-Toe; lacks real-world work.",
     "bharatintern": "Involves basic projects, certificate is issued only upon payment.",
