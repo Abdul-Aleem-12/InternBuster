@@ -37,11 +37,15 @@ const redList = {
     "coincent": "Only basic projects, certificate requires payment.",
     "1stop": "Offers simple projects with a paid certification model.",
     "corizo": "Project work is minimal, charges money for certificate issuance.",
+    "corizoin": "Project work is minimal, charges money for certificate issuance.",
     "thatshadycompany" : "No real world projects and you will be forced to pay inorder to get their certificate",
     "mitsquare": "Project work is minimal, charges money for certificate issuance.",
     "mycaptain": "Project work is minimal, charges money for certificate issuance.",
     "codsoft": "Multiple concerns have been raised regarding the legitimacy of their projects and need to pay.",
     "alcheringa": "Project work is minimal, charges money for certificate issuance.",
+    "cognifyz": "no legitimate project work,Need to pay for certificate and additional fees for LOR (Letter Of Recommandation)",
+    "ayuzera": "Offers simple projects with a paid certification model with a pyramid scheme.",
+
 };  
 
 
